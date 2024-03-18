@@ -1,4 +1,5 @@
-version: "3"
+
+
 services:
   directus:
     image: directus/directus:10.10.4
