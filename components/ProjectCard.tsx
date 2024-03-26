@@ -1,18 +1,18 @@
 /** Styles inside each card
- * 
+ *
  */
 
-import CardWrapper from "./CardWrapper";
+import GlassWrapper from "./GlassWrapper";
 
 export default function ProjectCard() {
   return (
-    <CardWrapper>
+    <div>
       <ul>
         <li>Project Title</li>
         <li>Project Item 1</li>
         <li>Project Item 2</li>
         <li>Project Item 3</li>
       </ul>
-    </CardWrapper>
+    </div>
   );
 }

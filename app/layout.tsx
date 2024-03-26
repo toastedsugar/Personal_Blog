@@ -18,7 +18,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="bg-indigo-200 text-zinc-700 dark:bg-zinc-900 dark:text-zinc-100">
+      {/** Declare global styles here */}
+      <body className="bg-white text-stone-700 dark:bg-stone-800 dark:text-stone-100">
         <ThemeProviders>
           <div className="flex flex-col ">
             <Navbar />

@@ -27,8 +27,8 @@ export default function ThemeSwitch() {
     );
 
   if (resolvedTheme === "dark")
-    return <MdOutlineWbSunny size={30} onClick={() => setTheme("light")} />;
+    return <MdOutlineWbSunny size={24} onClick={() => setTheme("light")} />;
 
   if (resolvedTheme === "light")
-    return <MdOutlineDarkMode size={30} onClick={() => setTheme("dark")} />;
+    return <MdOutlineDarkMode size={24} onClick={() => setTheme("dark")} />;
 }
